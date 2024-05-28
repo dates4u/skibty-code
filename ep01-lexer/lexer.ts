@@ -7,17 +7,17 @@
 // Represents tokens that our language understands in parsing.
 export enum TokenType {
 	// Literal Types
-	Number,
-	Identifier,
+	Something, //Number
+	Skippies, //idenifier
 
 	// Keywords
 	Let,
 
 	// Grouping * Operators
-	BinaryOperator,
-	Equals,
-	OpenParen,
-	CloseParen,
+	SkibidiOperator, //binary operator
+	Subs, // equals
+	OpenOhio, // open paren
+	CloseOhio, // close paren
 }
 
 /**
