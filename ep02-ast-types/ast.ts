@@ -6,10 +6,10 @@
 // -----------------------------------------------------------
 
 export type NodeType =
-  | "Program"
-  | "NumericLiteral"
-  | "Identifier"
-  | "BinaryExpr";
+  | ".exe" // Program
+  | "SkibicStuff" //NumericLiteral
+  | "Skibifier" //Identifier
+  | "GyattExpr"; //BinaryExpr
 
 /**
  * Statements do not result in a value at runtime.
